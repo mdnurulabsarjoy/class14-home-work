@@ -1,0 +1,481 @@
+/* common csss  start */
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  outline: 0;
+}
+body{
+  font-family: 'Abril Fatface', cursive;
+
+  font-family: 'Open Sans', sans-serif;
+
+  font-family: 'Ubuntu', sans-serif;
+}
+a{
+  text-decoration: none;
+}
+ul{
+  list-style: none;
+}
+.container{
+  width: 1170px;
+  margin: auto;
+}
+.row{
+  display: flex;
+  flex-wrap: wrap;
+}
+img{
+  display: block;
+}
+/* //common csss  end */
+/* header section start */
+header .top_bar{
+  background: #0f2f44;
+  color: #fff;
+  padding: 10px 0px;
+}
+header .top_bar .top_bar_left {
+  width: 50%;
+}
+header .top_bar .top_bar_right {
+     width: 50%;
+     text-align: right;
+}
+header nav .row {
+  align-items: center;
+}
+header nav .logo {
+  width: 15%;
+}
+header nav .menu {
+  width: 85%;
+}
+header nav .menu ul {
+  justify-content: flex-end;
+}
+header nav .menu ul li a {
+  font-size: 16px;
+  color: #222222;
+  font-weight: 500;
+  text-transform: capitalize;
+  padding: 42px 20px;
+  display: inline-block;
+  transition: .5s;
+}
+header nav .menu ul li:hover > a{
+  background: #fff9e6;
+}
+header nav .menu ul li > i{
+  width: 30px;
+  height: 30px;
+  border: 1ps solid #999999;
+  text-emphasis: center;
+  line-height: 30px;
+  margin: 0 10px;
+  cursor: pointer;
+}
+/* //header section end */
+/* banner section start */
+#banner{
+  height: 600px;
+background: url(../image/Bizzency_bg.jpg);
+background-color: #e0edff;
+background-repeat: no-repeat;
+background-position: right bottom;
+background-size: 60%;
+}
+#banner .row{
+  align-items: center;
+  height: 100%;
+}
+#banner .banner_info{
+  width: 40%;
+}
+#banner .banner_info h3{
+  font-size: 50px;
+  font-weight: 300;
+  color: #0f2f44;
+  text-transform: capitalize;
+  margin-bottom: -30px;
+}
+#banner .banner_info h1{
+  font-size: 80px;
+  color: #0f2f44;
+  font-family: abrill Fatface, cursive;
+ text-transform: uppercase;
+}
+#banner .banner_info h4{
+  font-size: 32px;
+  font-weight: 400;
+  color: #8484bf;
+  text-transform: capitalize;
+  letter-spacing: 15px;
+  margin-top: -20px;
+}
+#banner .banner_info p{
+  font-size: 14px;
+  font-weight: 400;
+  color: #444444;
+  width: 80%;
+  padding: 30px 0;
+}
+#banner .banner_info a{
+  background: #8484bf;
+  font-size: 20px;
+  color: #ffff;
+  text-transform: capitalize;
+  padding: 15px 20px;
+  border-radius: 5px;
+}
+/* //banner section  end */
+/* about section start */
+#about{
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+#about .container .info{
+  width: 50%;
+}
+#about .container image{
+  width: 50%;
+}
+#about .container .info h5{
+  font-size: 14px;
+  font-weight: 300;
+  color: #0f2f44;
+  text-transform: capitalize;
+  margin-bottom: -5px;
+
+}
+#about .container .info h2{
+  font-size: 32px;
+  font-weight: 400;
+  color: #0f2f44;
+  text-transform: capitalize;
+  font-family: 'Abril Fatface', cursive;
+
+}
+#about .container .info p{
+  font-size: 16px;
+  font-weight: 400;
+  color: #0f2f44;
+  font-family: 'Open Sans', sans-serif;
+  margin-top: 35px;
+
+}
+#about .container .info .last-p{
+  margin-left: 30px;
+  margin-top: 30px;
+  margin-bottom: 35px;
+}
+#about .container .info a{
+  background: #ffc712;
+  font-size: 20px;
+  color: #0f2f44;
+  text-transform: capitalize;
+  padding: 15px 20px;
+  border-radius: 5px;
+}
+#about .container .info .baton-2{
+  background: #fff;
+  font-size: 20px;
+  color: #0f2f44;
+  text-transform: capitalize;
+  padding: 15px 20px;
+  border-radius: 5px;
+  box-shadow: 0 0 20px;
+  margin-left: 20px;
+}
+/* //about section end */
+/* skill section start */
+#skill{
+  background-color: white;
+  height: 585px;
+}
+.skill_content {
+  text-align: right;
+}
+.skill_content h5 {
+  font-family: 'Ubuntu', sans-serif;
+ font-weight: 300;
+ color: #0f2f44;
+}
+.skill_content h2 {
+  font-family: 'Abril Fatface', cursive;
+  font-weight: 400;
+  color: #0f2f44;
+}
+.skill_content p {
+  color: #0f2f44;
+}
+.otherskill_contain {
+  margin-left: 13%;
+padding-left: 10%;
+padding-top: 4%;
+}
+.otherskill_contain h3 {
+  text-align: right;
+ color: #0f2f44;
+ text-transform: capitalize;
+ font-size: 14px;
+ font-weight: 500
+}
+.backgroundhundred {
+  background-color: #f2f2f1;
+  width: 100%;
+  margin-top: 6px;
+  margin-bottom: 15px;
+  border: none 1px;
+}
+.nienty {
+  width: 90%;
+  border-radius: 10px 10px ;
+  background: #2a4896;
+  text-align: left;
+  color: white;
+  margin-left: auto;
+}
+.eightyfive {
+  width: 90%;
+  border-radius: 10px 10px ;
+  background: #5d3b15;
+  text-align: left;
+  color: white;
+  margin-left: auto;
+}
+.seventyfive {
+  width: 90%;
+  border-radius: 10px 10px ;
+  background: #344a1f;
+  text-align: left;
+  color: white;
+  margin-left: auto;
+}
+.eighty {
+  width: 90%;
+  border-radius: 10px 10px ;
+  background: #392960;
+  text-align: left;
+  color: white;
+  margin-left: auto;
+}
+/* // skill section end */
+/* Service Section Css Start */
+#service{
+  height: 425px;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  background: #f5f5f5;
+  text-align: center;
+}
+.container {
+  height: 100%;
+}
+#service .service_item{
+  width: calc(100% / 3);
+  padding: 15px;
+  position: relative;
+}
+#service .service_item .service_item_icon{
+  width: 25%;
+  background: #e9e9e9;
+}
+#service .service_item .service_item_info{
+  background: #eeeeee;
+  width: 75%;
+}
+
+#service .service_item .overlay{
+  background: #0f2f44;
+  position: absolute;
+  inset: 15px;
+  text-align: center;
+  opacity: 0;
+  visibility: hidden;
+  transition: .5s;
+}
+#service .service_item:hover .overlay{
+  opacity: 1;
+  visibility: visible;
+}
+#service .service_item .overlay img{
+  display: inline;
+}
+/* //Service Section Css End */
+/* Portfolio Section Css Start */
+#portfolio {
+  height: 830px;
+  text-align: center;
+  padding-top: 8%;
+}
+#portfolio .portfolio_item{
+  display: flex;
+  flex-wrap: wrap;
+  width: calc(100% / 3);
+  padding: 15px;
+  position: relative;
+}
+#portfolio .portfolio_item img{
+  width: 100%;
+}
+#portfolio .portfolio_item:hover img{
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.5);
+}
+#portfolio .portfolio_item .overlay {
+ position: absolute;
+ background: #e9e9e9;
+ left: 15px;
+ right: 15px;
+ bottom: 15px;
+ text-align: center;
+ padding: 15px;
+  transition: .5s;
+  transform: scale(0) rotate(10deg);
+  transform-origin: bottom;
+}
+#portfolio .portfolio_item:hover .overlay{
+  transform: scale(1) rotate(0deg);
+}
+/* //Portfolio Section Css End */
+/* testimonial secton start */
+#testimonial{
+  height: 440px;
+  background-color: #f5f5f5;
+  text-align: center;
+}
+#testimonial .container{
+  padding: 20px 0;
+ 
+}
+#testimonial .container .san{
+width: 570px;
+height: 213px;
+margin-right: 2%;
+background-color: #e9e9e9;
+
+
+}
+#testimonial .container .ran{
+width: 570px;
+height: 213px;
+background-color: #e9e9e9;
+
+}
+
+#testimonial .container img{
+width: 215px;
+height: 213px;
+
+}
+#testimonial .container .bothcontent{
+width: 355px;
+height: 213px;
+padding: 15px 10px;
+text-align: left;
+}
+
+#testimonial h6{
+font-size: 14;
+font-weight: 300;
+font-family: 'Ubuntu', sans-serif;
+color: #0f2f44;
+text-transform: capitalize;
+padding-top: 3%;
+}
+
+#testimonial h2{
+font-size: 32;
+font-family: 'Abril Fatface', cursive;
+font-weight: 400;
+color: #0f2f44;}
+
+#testimonial p{
+color: #0f2f44;
+font-size: 14;
+font-weight: 400;
+font-family: 'Open Sans', sans-serif;
+}
+.sancontent h3{
+font-size: 20px;
+font-weight: 500;
+color: #0f2f44;
+font-family: 'Ubuntu', sans-serif;
+}
+.bothcontent h4{
+font-size: 10px;
+font-weight: 300;
+color: #0f2f44;
+font-family: 'Ubuntu', sans-serif;
+}
+
+/* testimonial sction end */
+/* Blog sction Start */
+
+#blogs{
+  height: 885px;
+  padding: 20px 20px;
+
+}
+#blogs img{
+  display: inline;
+  width: 260px;
+  height: 270px;
+}
+
+#blogs .container{
+  justify-content: center;
+  align-items: center;
+
+}
+.blogone, .blogtwo, .blogthree{
+  width: 313px;
+  height: 410px;
+  background-color: #f5f5f5;
+  margin: 10px 15px;
+  padding-top: 2%;
+  padding-bottom: 2%;
+  padding-right: 2%;
+  padding-left: 2%;
+  
+}
+
+#blogs h5{
+font-weight: 300;
+font-size: 14px;
+color: #777777;
+}
+#blogs p{
+font-weight: 500;
+font-size: 20px;
+color: #222222;
+}
+#blogs a{
+font-weight: 300;
+font-size: 16px;
+color: #777777;
+}
+
+.blogtwo{
+  transition: .6s;
+  
+}
+#blogs .blogtwo:hover{
+  background-color: #0f2f44;
+  box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.75);
+  -webkit-box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.75);
+  -moz-box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.75);
+  
+  
+}
+#blogs .blogtwo:hover h5{
+  color: white;
+}
+#blogs .blog_two:hover p{
+  color: white;
+}
+#blogs .blogtwo:hover a{
+  color: white;
+}
+/* //Blog Section End */
